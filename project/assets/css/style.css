@@ -1,0 +1,62 @@
+body{
+    background-image: url(../../ressources/img/sand.jpg);
+    background-repeat: repeat;
+}
+
+nav
+{
+    background-color: black ;
+}
+
+nav a
+{
+    
+    color: cadetblue;
+    padding : 30px;
+    background-repeat: repeat;
+    font-size: large;
+    display: inline-block;
+
+}
+
+nav a:hover
+{
+    background-color: cadetblue;
+    color: white;
+}
+
+h1{
+    
+    text-align: center;
+}
+
+h2{
+    background-color: burlywood;
+    color: blue;
+}
+
+
+
+button
+{
+    background-image: url(../../ressources/img/button.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+
+label
+{
+    display: inline-block;
+    margin-bottom: 15px;
+    text-align: right;
+    vertical-align: top;
+    
+}
+
+li
+{
+    display: inline;
+    list-style-type: none;
+}
+

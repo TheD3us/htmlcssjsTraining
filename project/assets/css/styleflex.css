@@ -1,0 +1,62 @@
+header
+{
+    flex-direction: row;
+    border: solid black 1px;
+    background-color:  limegreen;
+    padding: 2%;
+    margin : 2%;
+    flex : 90%;
+}
+
+* > p
+{
+    text-align: center;
+    vertical-align: center;
+    font-size: 30px;
+}
+
+article
+{
+    background-color: grey;
+    flex-direction: column;
+    padding: 5%;
+    margin : 2%;
+    border: solid black 1px;
+}
+
+nav
+{
+    flex: 30%;
+    background-color: coral;
+    flex-direction: column;
+    padding: 2%;
+    margin : 2%;
+    border: solid black 1px;
+}
+
+nav p
+{
+    padding-top: 100%;
+    margin: 0%;
+}
+div
+{
+    display: flex;
+}
+main
+{
+    background-color: goldenrod;
+    flex-direction: row;
+    flex :60%;
+    padding: 2%;
+    margin : 2%;
+    border: solid black 1px;
+}
+
+footer
+{
+    background-color: darkorchid;
+    padding: 1%;
+    margin : 2%;
+    border: solid black 1px;
+}
