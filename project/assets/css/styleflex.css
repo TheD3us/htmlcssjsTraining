@@ -1,6 +1,5 @@
 header
 {
-    flex-direction: row;
     border: solid black 1px;
     background-color:  limegreen;
     padding: 2%;
@@ -18,7 +17,7 @@ header
 article
 {
     background-color: grey;
-    flex-direction: column;
+
     padding: 5%;
     margin : 2%;
     border: solid black 1px;
@@ -28,7 +27,6 @@ nav
 {
     flex: 30%;
     background-color: coral;
-    flex-direction: column;
     padding: 2%;
     margin : 2%;
     border: solid black 1px;
@@ -46,7 +44,8 @@ div
 main
 {
     background-color: goldenrod;
-    flex-direction: row;
+    flex-direction: column;
+    display: flex;
     flex :60%;
     padding: 2%;
     margin : 2%;
@@ -59,4 +58,26 @@ footer
     padding: 1%;
     margin : 2%;
     border: solid black 1px;
+}
+
+.flexnav
+{
+    background-color: black ;
+}
+
+.flexnav a
+{
+    
+    color: cadetblue;
+    padding : 30px;
+    background-repeat: repeat;
+    font-size: large;
+    display: inline-block;
+
+}
+
+.flexnav a:hover
+{
+    background-color: cadetblue;
+    color: white;
 }
