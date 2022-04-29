@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="assets/js/main.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -36,18 +37,23 @@
             <tr>
                 <td><h1>Vous</h1></td>
                 <td align="right">
-                    <form action="" >
+                    <form id="form" action=""  >
                     <label for="nom">Nom</label>
-                    <input type="text"><br>
+                    <input  id="nom" type="text"><br>
+                    <span id="erreurnom"></span><br>
                     <label for="prenom">Prénom</label>
-                    <input type="text"><br>
+                    <input id="prenom" type="text"><br>
+                    <span id="erreurprenom"></span><br>
                     <label for="numerocarte">Numéro Carte d'étudiant</label>
-                    <input type="number"><br>
+                    <input id="numerocarte" type="number"><br>
+                    <span id="erreurnumerocarte"></span><br>
                     <label for="telephone">Téléphone</label>
-                    <input type="number"><br>
+                    <input id="telephone" type="number"><br>
+                    <span id="erreurtelephone"></span><br>
                     <label for="mail">Adresse Email</label>
-                    <input type="email" name="mail" id="mail">
-    
+                    <input id="mail" type="email" name="mail" id="mail"><br>
+                    <span id="erreurmail"></span><br>
+                    <input type="submit"  value="Envoyer" onsubmit="validerForm(event)">
                     </form>
                 </td>
             </tr>

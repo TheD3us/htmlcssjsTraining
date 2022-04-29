@@ -1,0 +1,111 @@
+a
+{
+    text-decoration: none;
+}
+
+nav
+{
+    display: flex;
+    background-color: black;
+}
+
+nav ul
+{
+    
+    flex-direction: row;
+    gap: 15px;
+    
+}
+
+nav *
+{
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+}
+
+nav p
+{
+    font-size: large;
+    padding-top: 20px;
+}
+
+nav ul li
+{
+    display: inline;
+    list-style-type: none;
+}
+
+main
+{
+   
+}
+
+img
+{
+    width: 50%;
+    float: left;
+    margin-right: 15px;
+}
+
+
+article
+{
+    text-align: justify;
+    flex-direction: column;
+}
+
+article > a
+{
+    color: red;
+    float: right;
+}
+
+aside
+{
+    margin-top: 12%;
+    background-color: rgb(211, 207, 207);
+    border-radius: 10px;
+    padding: 12px;
+}
+
+footer
+{   
+
+    display: flex;
+    width: 100%;
+    background-color: black;
+    margin-top: 20px;
+    
+}
+
+h3
+{
+    text-indent: 20px;
+    color: green;
+}
+
+footer a, footer p
+{
+    color: white;
+}
+
+.foot2
+{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    text-align: right;
+    
+}
+
+.foot2 *
+{
+    padding: 0;
+    margin: 0;
+}
+
+.foot2 p
+{
+    font-style: italic;
+}
